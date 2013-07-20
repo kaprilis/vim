@@ -1,0 +1,2 @@
+ctags -R --c++-kinds=+px --fields=+iaS --extra=+q --exclude=/usr/include/boost/* -f ~/.vim/tags/sys.tags /usr/include /usr/local/include
+ctags -R --c++-kinds=+px --fields=+iaS --extra=+q -f ~/.vim/tags/boost.tags /usr/include/boost/system /usr/include/boost/thread /usr/include/boost/asio
