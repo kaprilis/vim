@@ -1,10 +1,12 @@
 set number
 set tabstop=4
+set shiftwidth =4
 filetype plugin indent on
 
 set tags+=~/.vim/tags/sys.tags
 set tags+=~/.vim/tags/boost.tags
 
+set completeopt=longest,menu
 "-- omnicppcomplete setting --
 let OmniCpp_MayCompleteDot = 1 " autocomplete with .
 let OmniCpp_MayCompleteArrow = 1 " autocomplete with ->
