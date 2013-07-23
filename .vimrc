@@ -2,8 +2,8 @@ set number
 set tabstop=4
 filetype plugin indent on
 
-set tags+=~/.vim/tagfiles/sys.tags
-set tags+=~/.vim/tagfiles/boost.tags
+set tags+=~/.vim/tags/sys.tags
+set tags+=~/.vim/tags/boost.tags
 
 "-- omnicppcomplete setting --
 let OmniCpp_MayCompleteDot = 1 " autocomplete with .
